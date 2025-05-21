@@ -48,6 +48,13 @@ The main improvements and contributions are summarized as follows:
 | [😁IndexTTS](https://huggingface.co/IndexTeam/Index-TTS) | [IndexTTS](https://modelscope.cn/models/IndexTeam/Index-TTS) |
 
 
+## 📖 Documentation
+
+We have comprehensive documentation to help you get started with IndexTTS, understand its usage, and contribute to the project.
+
+[**View the Full Documentation**](docs/index.md)
+
+
 ## 📑 Evaluation
 
 **Word Error Rate (WER) Results for IndexTTS and Baseline Models**
