@@ -132,6 +132,20 @@ text="大家好，我现在正在bilibili 体验 ai 科技，说实话，来之�
 tts.infer(voice, text, output_path)
 ```
 
+#### REST API
+An HTTP API is also available using [FastAPI](https://fastapi.tiangolo.com/):
+
+```bash
+uvicorn api:app --host 0.0.0.0 --port 8000
+```
+
+Then send a request with text and a reference audio file:
+
+```bash
+curl -X POST -F "text=你好，世界" -F "audio_prompt=@test_data/input.wav" \
+  http://localhost:8000/tts --output output.wav
+```
+
 ## Acknowledge
 1. [tortoise-tts](https://github.com/neonbjb/tortoise-tts)
 2. [XTTSv2](https://github.com/coqui-ai/TTS)

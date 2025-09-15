@@ -22,4 +22,6 @@ librosa
 gradio
 tqdm
 WeTextProcessing # arm机器如果安装失败，请注释此行
-wetext
+fastapi
+uvicorn
+python-multipart
